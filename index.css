@@ -5,14 +5,16 @@ html {
 }
 
 body {
-  padding: 1em;
   display: flex;
   flex-flow: column;
   margin: auto;
 }
 
-footer a {
-  display: table;
+article {
+  padding: 1em;
+  display: flex;
+  flex-flow: column;
+  margin: auto;
 }
 
 [rel=home]:not(:focus) {
@@ -25,4 +27,17 @@ footer a {
 
 :focus {
   outline-width: thick;
+}
+
+h1 {
+  font: inherit;
+}
+
+blockquote {
+  margin-block-start: 33vh;
+  min-height: 90vh;
+  font-size: 2rem;
+  margin-inline: 0;
+  font-family: monospace;
+  order: -1;
 }
